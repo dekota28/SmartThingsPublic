@@ -191,16 +191,16 @@ private List getButtonResult(rawValue) {
 
 	// Name of the button
     if ( button == 1 ) { 
-        buttonName = "on"
+        buttonName = "one"
     }
     else if ( button == 2 ) { 
-        buttonName = "up" 
+        buttonName = "two" 
     }
     else if ( button == 3 ) {
-        buttonName = "down" 
+        buttonName = "three" 
     }
     else if ( button == 4 ) { 
-        buttonName = "off" 
+        buttonName = "four" 
     }
 
 	// The button is pressed, aka: pushed + released, with 0 hold time
